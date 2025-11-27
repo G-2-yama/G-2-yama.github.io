@@ -1,3 +1,7 @@
+import remarkBreaks from 'remark-breaks';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
@@ -47,8 +51,17 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.dev/G-2-yama/G-2-yama.github.io/blob/main/',
+          remarkPlugins: [
+            remarkBreaks, remarkGfm, remarkMath,
+          ],
+          rehypePlugins: [
+            rehypeKatex,
+          ],
         },
         blog: {
+          blogTitle: 'monolog',
+          blogSidebarTitle: 'monolog',
+          blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -59,6 +72,12 @@ const config: Config = {
           editUrl:
             'https://github.dev/G-2-yama/G-2-yama.github.io/blob/main/',
           // Useful options to enforce blogging best practices
+          remarkPlugins: [
+            remarkBreaks, remarkGfm, remarkMath,
+          ],
+          rehypePlugins: [
+            rehypeKatex,
+          ],
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -78,6 +97,7 @@ const config: Config = {
         language: ["ja"],
       },
     ],
+    require.resolve('docusaurus-plugin-image-zoom'),
   ],
 
   themeConfig: {
@@ -152,6 +172,12 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    zoom: {
+      selector: '.markdown img',
+      config: {
+        scrollOffset: 0,
+      }
+    }
   } satisfies Preset.ThemeConfig,
 };
 
