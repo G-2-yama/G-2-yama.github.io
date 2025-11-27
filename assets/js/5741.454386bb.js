@@ -1,0 +1,1 @@
+(globalThis.webpackChunkg_2_yama_github_io=globalThis.webpackChunkg_2_yama_github_io||[]).push([[5741],{5741:()=>{}}]);
