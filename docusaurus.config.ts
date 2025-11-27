@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'G^2',
+  tagline: 'G^2公式サイト',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://G-2-yama.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'G-2-yama', // Usually your GitHub org/user name.
+  projectName: 'G-2-yama.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -31,8 +31,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ja',
+    locales: ['ja', 'en'],
   },
 
   presets: [
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.dev/G-2-yama/G-2-yama.github.io/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.dev/G-2-yama/G-2-yama.github.io/blob/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -75,10 +75,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'G^2 Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -88,57 +88,52 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '広報',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/g2_yama',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UC1XMHED8EGZWsgyNz3e2OnA',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'ホームページ',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: '旧ホームページ',
+              href: 'http://g2yamanashi.web.fc2.com/index.html',
             },
             {
+              label: '新ホームページ(制作中)',
+              href: 'https://g-2-yama.github.io/website/',
+            },
+          ]
+        },
+        {
+          title: '開発・販売',
+          items: [
+            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/G-2-yama',
+            },
+            {
+              label: 'Booth',
+              href: 'https://g2yama.booth.pm/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} G^2.`,
     },
     prism: {
       theme: prismThemes.github,
