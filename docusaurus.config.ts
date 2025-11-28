@@ -60,7 +60,7 @@ const config: Config = {
         },
         blog: {
           blogTitle: 'blog',
-          blogSidebarTitle: '🦐日記🦀',
+          blogSidebarTitle: '🦐 日記 🦀',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
@@ -81,6 +81,14 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+        },
+        pages: {
+          remarkPlugins: [
+            remarkBreaks, remarkGfm, remarkMath,
+          ],
+          rehypePlugins: [
+            rehypeKatex,
+          ],
         },
         theme: {
           customCss: './src/css/custom.css',
