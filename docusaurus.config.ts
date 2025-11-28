@@ -59,8 +59,8 @@ const config: Config = {
           ],
         },
         blog: {
-          blogTitle: 'monolog',
-          blogSidebarTitle: 'monolog',
+          blogTitle: 'blog',
+          blogSidebarTitle: '🦐日記🦀',
           blogSidebarCount: 'ALL',
           showReadingTime: true,
           feedOptions: {
@@ -113,19 +113,32 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs', label: '資料', position: 'left'},
+        {to: '/blog', label: '日記', position: 'left'},
         {type: 'search', position: 'right'},
       ],
     },
     footer: {
       style: 'dark',
       links: [
+        {
+          title: '関連',
+          items: [
+            {
+              label: '旧ホームページ',
+              href: 'http://g2yamanashi.web.fc2.com/index.html',
+            },
+          ]
+        },
+        {
+          title: '販売',
+          items: [
+            {
+              label: 'Booth',
+              href: 'https://g2yama.booth.pm/',
+            },
+          ],
+        },
         {
           title: '広報',
           items: [
@@ -135,33 +148,20 @@ const config: Config = {
             },
             {
               label: 'YouTube',
-              href: 'https://www.youtube.com/channel/UC1XMHED8EGZWsgyNz3e2OnA',
+              href: 'https://youtube.com/@g_2827?si=D_OfNFhzohP-Wq9M',
+            },
+            {
+              label: 'pixiv',
+              href: 'https://www.pixiv.net/users/10944402',
             },
           ],
         },
         {
-          title: 'ホームページ',
-          items: [
-            {
-              label: '旧ホームページ',
-              href: 'http://g2yamanashi.web.fc2.com/index.html',
-            },
-            {
-              label: '新ホームページ(制作中)',
-              href: 'https://g-2-yama.github.io/website/',
-            },
-          ]
-        },
-        {
-          title: '開発・販売',
+          title: '開発',
           items: [
             {
               label: 'GitHub',
               href: 'https://github.com/G-2-yama',
-            },
-            {
-              label: 'Booth',
-              href: 'https://g2yama.booth.pm/',
             },
           ],
         },
