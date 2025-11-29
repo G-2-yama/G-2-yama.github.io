@@ -129,7 +129,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | 山梨大学ゲーム制作サークル`}
+      title=""
       description="山梨大学のゲーム制作サークルG^2の公式サイト">
       <main>
         <HomepageHeader />
