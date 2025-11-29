@@ -6,26 +6,26 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #e60012; /* 明るい赤 */
+  --ifm-color-primary-dark: #cf0010;
+  --ifm-color-primary-darker: #c3000f;
+  --ifm-color-primary-darkest: #a0000c;
+  --ifm-color-primary-light: #ff1a2b;
+  --ifm-color-primary-lighter: #ff2636;
+  --ifm-color-primary-lightest: #ff4d5b;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='light'] {
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #1a1a1a;
+}
+
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ff3344;
+  --ifm-background-color: #0a0a0a;
+  --ifm-font-color-base: #f0f0f0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -52,6 +52,12 @@ h3 {
   gap: 18px;
   padding-left: 0;
   list-style: none;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
 }
 
 iframe[src*="youtube.com"] {
