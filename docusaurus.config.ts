@@ -99,6 +99,36 @@ const config: Config = {
 
   plugins: [
     [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'news',
+        routeBasePath: 'news',
+        path: './news',
+        blogTitle: 'ニュース',
+        blogSidebarTitle: '📰 ニュース ',
+        blogSidebarCount: 'ALL',
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        // Please change this to your repo.
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          'https://github.dev/G-2-yama/G-2-yama.github.io/blob/main/',
+        // Useful options to enforce blogging best practices
+        remarkPlugins: [
+          remarkBreaks, remarkGfm, remarkMath,
+        ],
+        rehypePlugins: [
+          rehypeKatex,
+        ],
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      }
+    ],
+    [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
@@ -121,6 +151,7 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
+        {to: '/news', label: 'ニュース', position: 'left'},
         {to: '/docs', label: '資料', position: 'left'},
         {to: '/blog', label: '日記', position: 'left'},
         {type: 'search', position: 'right'},
