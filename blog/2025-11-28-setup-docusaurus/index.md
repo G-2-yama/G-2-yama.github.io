@@ -39,3 +39,8 @@ git push origin gh-pages
 
 git switch main
 ```
+
+## 補足
+### CSS
+docusaurusでは以下が使われている．
+https://infima.dev/
