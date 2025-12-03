@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkg_2_yama_github_io=globalThis.webpackChunkg_2_yama_github_io||[]).push([[891],{7481:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/en/news","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"\u30cb\u30e5\u30fc\u30b9"}}')}}]);

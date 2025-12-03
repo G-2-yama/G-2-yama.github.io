@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkg_2_yama_github_io=globalThis.webpackChunkg_2_yama_github_io||[]).push([[7472],{5513:s=>{s.exports=JSON.parse('{"title":"\ud83e\udd90 \u65e5\u8a18 \ud83e\udd80","items":[{"title":"docusaurus\u306e\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7","permalink":"/en/blog/2025/11/28/setup-docusaurus","unlisted":false,"date":"2025-11-28T00:00:00.000Z"}]}')}}]);

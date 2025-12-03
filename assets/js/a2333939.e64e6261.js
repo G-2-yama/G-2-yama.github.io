@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkg_2_yama_github_io=globalThis.webpackChunkg_2_yama_github_io||[]).push([[16],{9472:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"news"}')}}]);

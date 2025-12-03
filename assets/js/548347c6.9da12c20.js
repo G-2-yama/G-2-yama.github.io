@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkg_2_yama_github_io=globalThis.webpackChunkg_2_yama_github_io||[]).push([[2635],{2763:e=>{e.exports=JSON.parse('{"title":"\ud83d\udcf0 \u30cb\u30e5\u30fc\u30b9 ","items":[{"title":"\ud83c\udf83 \u7b2c22\u56de\u68a8\u7532\u796d","permalink":"/news/2025/11/03/univ-fes","unlisted":false,"date":"2025-11-03T00:00:00.000Z"}]}')}}]);
