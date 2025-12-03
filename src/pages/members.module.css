@@ -1,0 +1,92 @@
+/* --- ページタイトル --- */
+.pageTitle {
+    text-align: center;
+    color: var(--ifm-font-color-base);
+    margin: 40px auto 40px auto;
+}
+
+/* --- グリッドレイアウト --- */
+.membersGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 280px));
+  justify-content: center;
+  gap: 30px;
+}
+
+/* --- メンバーカード --- */
+.memberCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 2px var(--ifm-color-emphasis-200) solid;
+  background-color: var(--ifm--background-color);
+  padding: 0;
+  text-align: center;
+  width: 280px; 
+  height: 420px;
+}
+
+/* --- 画像 --- */
+.memberImage {
+  display: block;
+  margin: 1.8rem auto 1.0rem auto;
+  width: 120px; 
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* --- テキストコンテンツ --- */
+.memberContent {
+  padding: 10px 30px 20px 30px; 
+}
+
+.memberName {
+  font-size: 1.3rem;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  color: var(--ifm-font-color-base);
+}
+
+/* 自己紹介 */
+.memberBio {
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.4;
+  color: var(--ifm-font-color-base);
+  margin: 20px 3px 20px 3px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  white-space: pre-wrap;
+}
+
+/* --- SNSリンク --- */
+.socialLinks {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.socialIcon {
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 1.5rem;
+}
+
+.socialIconSvg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--ifm-color-secondary-darkest);
+  transition: color 0.2s;
+}
+
+.socialIcon:hover .socialIconSvg {
+  color: var(--ifm-color-primary); 
+}

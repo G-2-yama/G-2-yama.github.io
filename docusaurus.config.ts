@@ -152,8 +152,9 @@ const config: Config = {
       },
       items: [
         {to: '/news', label: 'ニュース', position: 'left'},
-        {to: '/docs', label: '資料', position: 'left'},
+        {to: '/members', label: 'メンバー', position: 'left'},
         {to: '/blog', label: '日記', position: 'left'},
+        {to: '/docs', label: '資料', position: 'left'},
         {type: 'search', position: 'right'},
       ],
     },
