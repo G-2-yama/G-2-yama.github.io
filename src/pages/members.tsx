@@ -3,14 +3,14 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import members, { Member } from '../data/members'; 
 import styles from './members.module.css'; 
-import { IconWrapper, IconPaths } from '../components/socialIcon';
+import { IconWrapper, IconData } from '../components/socialIcon';
 
 // SNSアイコンコンポーネントの型定義
 interface SocialIconProps {
   type: 'twitter' | 'github' | 'youtube' | 'pixiv' | 'homepage' ;
   username: string; // リンクの表示名や説明
   url: string; // 実際のリンク先URL
-  iconKey: keyof typeof IconPaths; // 表示するアイコン文字
+  iconKey: keyof typeof IconData; // 表示するアイコン文字
 }
 
 const SocialIcon: React.FC<SocialIconProps> = ({ url, iconKey, username }) => {

@@ -19,13 +19,17 @@
 
 [data-theme='light'] {
   --ifm-background-color: #ffffff;
-  --ifm-font-color-base: #1a1a1a;
+  --ifm-font-color-base: #000;
 }
 
 [data-theme='dark'] {
   --ifm-color-primary: #ff3344;
-  --ifm-font-color-base: #f0f0f0;
+  --ifm-font-color-base: #fff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] svg {
+  color: var(--icon-dark-color) !important;
 }
 
 .menu__link {

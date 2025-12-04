@@ -12,8 +12,6 @@ import styles from './index.module.css';
 // サークル基本情報
 const CIRCLE_INFO = {
   description: "山梨大学 一次創作サークル",
-  location: "山梨大学 甲府キャンパス",
-  location_url: "https://maps.app.goo.gl/kDJTGw3XpN4qh3RY9",
   logo: "https://github.com/g-2-yama.png",
 };
 
@@ -46,21 +44,12 @@ function HomepageHeader() {
           className={styles.logoImage}
         />
         <p className={styles.heroSubtitle}>
-          {CIRCLE_INFO.description}<br/>
-          <span style={{ fontSize: '0.8em', fontWeight: 'normal' }}>
-            <Link
-              to={CIRCLE_INFO.location_url}
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              🗺 {CIRCLE_INFO.location}
-            </Link>
-          </span>
+          {CIRCLE_INFO.description}
         </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/news">
+            to="/greeting">
              G^2を知る
           </Link>
           <Link
@@ -135,7 +124,6 @@ export default function Home() {
         <HomepageHeader />
         <StatsSection />
         <SocialLinksSection />
-        <hr style={{ width: '100%', backgroundColor: 'var(--ifm-font-color-base)'}} />
         <div className={styles.container}><Greeting /></div>
       </main>
     </Layout>

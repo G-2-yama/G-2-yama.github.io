@@ -76,17 +76,10 @@
 
 .socialIcon {
   text-decoration: none;
-  transition: color 0.2s;
   font-size: 1.5rem;
 }
 
 .socialIconSvg {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: var(--ifm-color-secondary-darkest);
-  transition: color 0.2s;
-}
-
-.socialIcon:hover .socialIconSvg {
-  color: var(--ifm-color-primary); 
+  width: 24px;
+  height: 24px;
 }
