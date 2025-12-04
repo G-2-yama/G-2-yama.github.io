@@ -14,7 +14,7 @@ export interface Member {
   pixivUrl?: string;
   homepageUrl?: string;
 
-  imageUrl: string; // 画像のパス (Docusaurusの静的画像パス)
+  imageUrl: string;
 }
 
 /**
@@ -28,11 +28,9 @@ const members: Member[] = [
     name: 'nnna',
     position: '2024年度部長',
     bio: 
-`Arch linuxとRustが好きな美術組．
-インフラ整備とか色々やってる．
-このwebサイトの創設者でもある．
+`美術班．だがプログラムもシナリオも全てやる．
 
-ホームページは梨大生限定．`,
+私のホームページは梨大生限定です．`,
     twitterUrl: 'https://x.com/nh7cs', 
     githubUrl: 'https://github.com/nnna1224',   
     youtubeUrl: 'https://www.youtube.com/@nh7cs',
