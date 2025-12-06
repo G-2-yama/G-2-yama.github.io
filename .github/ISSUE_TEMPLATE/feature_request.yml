@@ -1,7 +1,7 @@
 name: "機能リクエスト"
 description: ウェブサイトへの機能追加や改善の提案
-title: "[FEAT] (概要を簡潔に記述)"
-labels: ["feature"]
+title: "feature: (概要を簡潔に記述)"
+labels: ["enhancement"]
 body:
   - type: markdown
     attributes:
@@ -9,18 +9,29 @@ body:
         ウェブサイトの改善案をご提案いただきありがとうございます．どのような機能が必要か詳細にご説明ください．
         
   - type: textarea
-    id: goal
+    id: abstract
     attributes:
-      label: "目的 (何を実現したいか)"
-      description: "この機能が実装されることで，ユーザーは何ができるようになるか？"
+      label: "概要"
+      description: "どのような機能なのかを簡潔に記述してください"
+      placeholder: "簡潔に記述してください"
     validations:
       required: true
 
   - type: textarea
+    id: goal
+    attributes:
+      label: "目的"
+      description: "この機能があるとユーザにどのように役立つか簡潔に記述してください"
+      placeholder: "簡潔に記述してください"
+    validations:
+      required: false
+
+  - type: textarea
     id: solution
     attributes:
-      label: "提案する解決策 (具体的な実装案)"
+      label: "実装案"
       description: "可能であれば，どのような機能やデザインが適切か，具体的な案をご提示ください"
+      placeholder: "具体的に記述してください"
     validations:
       required: false
       
@@ -29,6 +40,7 @@ body:
     attributes:
       label: "検討した代替案"
       description: "この機能以外に考えられる代替案や，なぜこの解決策が最適だと考えるか，理由を記述してください"
+      placeholder: "具体的に記述してください"
     validations:
       required: false
       
@@ -37,5 +49,6 @@ body:
     attributes:
       label: "その他，補足情報"
       description: "参考となるURL，デザインのスケッチなどがあればご提供ください"
+      placeholder: "簡潔に記述してください"
     validations:
       required: false
