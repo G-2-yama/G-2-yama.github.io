@@ -72,7 +72,7 @@ body:
       label: "OS"
       description: "例: macOS Sonoma, Windows 11, iOS 17"
       placeholder: "使用しているOSを記述してください"
-      placeholder: ""
+      placeholder: "OS名"
     validations:
       required: false
 
