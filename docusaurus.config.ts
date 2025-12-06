@@ -133,6 +133,12 @@ const config: Config = {
       {
         hashed: true,
         language: ["ja"],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: ["/docs"],
+        blogRouteBasePath: ["/blog", "/news"],
+        highlightSearchTermsOnTargetPage: true,
       },
     ],
     require.resolve('docusaurus-plugin-image-zoom'),
