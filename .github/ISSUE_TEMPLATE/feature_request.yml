@@ -8,7 +8,7 @@ body:
       value: |
         ウェブサイトの改善案をご提案いただきありがとうございます．どのような機能が必要か詳細にご説明ください．
         
-  - type: textarea
+  - type: input
     id: abstract
     attributes:
       label: "概要"

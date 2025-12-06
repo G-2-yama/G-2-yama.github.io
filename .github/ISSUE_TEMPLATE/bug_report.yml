@@ -8,8 +8,8 @@ body:
       value: |
         ご協力ありがとうございます．不具合を迅速に特定し修正するため，できる限り詳細な情報をご提供ください．
   
-  - type: input
-    id: textarea
+  - type: textarea
+    id: url
     attributes:
       label: "問題が発生したURL (複数可)"
       description: "例: https://g-2-yama.github.io/\n\n問題が発生した全てのURLを改行区切りで貼り付けてください"
