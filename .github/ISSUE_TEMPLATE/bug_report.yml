@@ -1,0 +1,78 @@
+name: "不具合報告"
+description: ウェブサイト上の誤りや予期しない挙動についての報告
+title: "[BUG] (概要を簡潔に記述)"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご協力ありがとうございます．不具合を迅速に特定し修正するため，できる限り詳細な情報をご提供ください．
+  
+  - type: input
+    id: url
+    attributes:
+      label: "問題が発生したURL (複数可)"
+      description: "例: https://g-2-yama.github.io/\n\n問題が発生した全てのURLを改行区切りで貼り付けてください"
+      placeholder: "URLを1行に1つずつ貼り付けてください"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "問題の詳細"
+      description: "何が起こりましたか？(表示の崩れ，内容の誤りなど)"
+      placeholder: "具体的に記述してください"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: "再現手順"
+      description: "問題を再現するために必要な手順を記述してください"
+      placeholder: |
+        1. ...のページにアクセスする
+        2. ...をクリックする
+        3. 予期しない挙動が発生する
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "期待される挙動"
+      description: "本来はどうあるべきか記述してください"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: browser
+    attributes:
+      label: "ブラウザ"
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - その他 (詳細を記述)
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: "OS"
+      description: "例: macOS Sonoma, Windows 11, iOS 17"
+      placeholder: "使用しているOSを記述してください"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "その他，補足情報"
+      description: "スクリーンショットや動画，ログなどがあればご提供ください"
+    validations:
+      required: false
