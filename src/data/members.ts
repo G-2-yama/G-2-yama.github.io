@@ -26,17 +26,30 @@ export interface Member {
 const members: Member[] = [
   {
     name: 'nnna',
-    position: '2024年度部長',
+    position: '部員',
     bio: 
-`美術班．だがプログラムもシナリオも全てやる．
-
-私のホームページは梨大生限定です．`,
+`美術班
+だけどプログラムとかシナリオとか
+全てをやっている`,
     twitterUrl: 'https://x.com/nh7cs', 
     githubUrl: 'https://github.com/nnna1224',   
     youtubeUrl: 'https://www.youtube.com/@nh7cs',
     pixivUrl: 'https://www.pixiv.net/users/100585348',
     homepageUrl: 'https://lww.kki.yamanashi.ac.jp/~t22cs040/',
     imageUrl: 'https://github.com/nnna1224.png',
+  },
+  {
+    name: 'スラリン',
+    position: '部員',
+    bio: 
+`某アイドル研究部スパイ
+プログラム班という体で在席
+
+生きがいはアルバイトと学マス
+人間って何だろう`,
+    twitterUrl: 'https://x.com/Surarin_dasu', 
+    githubUrl: 'https://github.com/surarinko8',   
+    imageUrl: '/img/user_icon/surarin.jpg',
   },
 ];
 

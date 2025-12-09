@@ -51,7 +51,7 @@
 /* 自己紹介 */
 .memberBio {
   font-size: 0.9rem;
-  text-align: left;
+  /* text-align: left; */
   line-height: 1.4;
   color: var(--ifm-font-color-base);
   margin: 20px 3px 20px 3px;
