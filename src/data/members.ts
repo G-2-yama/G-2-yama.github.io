@@ -25,18 +25,14 @@ export interface Member {
  */
 const members: Member[] = [
   {
-    name: 'nnna',
+    name: 'キク',
     position: '部員',
     bio: 
-`美術班
-だけどプログラムとかシナリオとか
-全てをやっている`,
-    twitterUrl: 'https://x.com/nh7cs', 
-    githubUrl: 'https://github.com/nnna1224',   
-    youtubeUrl: 'https://www.youtube.com/@nh7cs',
-    pixivUrl: 'https://www.pixiv.net/users/100585348',
-    homepageUrl: 'https://lww.kki.yamanashi.ac.jp/~t22cs040/',
-    imageUrl: 'https://github.com/nnna1224.png',
+`にんげん🥕`,
+    twitterUrl: 'https://x.com/kikukikukiku333', 
+    githubUrl: 'https://github.com/KIKUSAN333',   
+    homepageUrl: 'https://unityroom.com/users/kiku333',
+    imageUrl: '/img/user_icon/kiku.jpg',
   },
   {
     name: 'スラリン',
@@ -52,13 +48,18 @@ const members: Member[] = [
     imageUrl: '/img/user_icon/surarin.jpg',
   },
   {
-    name: 'キク',
+    name: 'nnna',
     position: '部員',
     bio: 
-`にんげん🥕`,
-    twitterUrl: 'https://x.com/kikukikukiku333', 
-    githubUrl: 'https://github.com/KIKUSAN333',   
-    imageUrl: '/img/user_icon/kiku.jpg',
+`美術班
+だけどプログラムとかシナリオとか
+全てをやっている`,
+    twitterUrl: 'https://x.com/nh7cs', 
+    githubUrl: 'https://github.com/nnna1224',   
+    youtubeUrl: 'https://www.youtube.com/@nh7cs',
+    pixivUrl: 'https://www.pixiv.net/users/100585348',
+    homepageUrl: 'https://lww.kki.yamanashi.ac.jp/~t22cs040/',
+    imageUrl: 'https://github.com/nnna1224.png',
   },
 ];
 
