@@ -51,6 +51,15 @@ const members: Member[] = [
     githubUrl: 'https://github.com/surarinko8',   
     imageUrl: '/img/user_icon/surarin.jpg',
   },
+  {
+    name: 'キク',
+    position: '部員',
+    bio: 
+`にんげん🥕`,
+    twitterUrl: 'https://x.com/kikukikukiku333', 
+    githubUrl: 'https://github.com/KIKUSAN333',   
+    imageUrl: '/img/user_icon/kiku.jpg',
+  },
 ];
 
 export default members;
