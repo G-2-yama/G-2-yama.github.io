@@ -48,6 +48,18 @@ const members: Member[] = [
     imageUrl: '/img/user_icon/surarin.jpg',
   },
   {
+    name: 'welt',
+    position: '部員',
+    bio: 
+`美術班　デジタル・アナログ問わずイラストと3Dモデリングを担当
+プログラムもそれなりに書ける　執筆と音響はいずれやりたい
+重度のガンダムオタク、最近は学マスにどっぷり`,
+    twitterUrl: 'https://x.com/karukitora', 
+    githubUrl: 'https://github.com/WeltYoahim',   
+    pixivUrl: 'https://www.pixiv.net/users/38385659',
+    imageUrl: '/img/user_icon/welt.jpg',
+  },
+  {
     name: 'nnna',
     position: '部員',
     bio: 
