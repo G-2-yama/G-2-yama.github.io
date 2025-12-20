@@ -154,8 +154,8 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'G^2 Logo',
-        src: 'img/logo.png',
-        srcDark: 'img/logo.png',
+        src: 'img/logo_black.png',
+        srcDark: 'img/logo_white.png',
       },
       items: [
         {to: '/news', label: 'ニュース', position: 'left'},
