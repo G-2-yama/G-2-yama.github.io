@@ -18,7 +18,7 @@ const CIRCLE_INFO = {
 // 統計・特徴データ
 const STATS = [
   { label: 'サークル設立', value: '2013年' },
-  { label: 'メンバー', value: '22名' },
+  { label: 'メンバー', value: '20名' },
   { label: '制作作品', value: '15作以上' },
   { label: '会費', value: '0円' },
 ];

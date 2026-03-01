@@ -1,0 +1,17 @@
+services:
+  editor:
+    build: 
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    container_name: docusaurus-editor
+    userns_mode: "keep-id"
+    ports:
+      - "8080:8080" # Code-Server (エディタ)
+      - "3000:3000" # Docusaurus (プレビュー)
+    volumes:
+      - .:/app:Z
+    working_dir: /app
+    # 起動時に依存関係インストールとサーバー立ち上げを行う
+    entrypoint: ["/bin/sh", "-c", "yarn install && code-server --bind-addr 0.0.0.0:8080 --auth none . & yarn start --host 0.0.0.0 --no-open"]
+    environment:
+      - PASSWORD=${CODE_SERVER_PASSWORD}

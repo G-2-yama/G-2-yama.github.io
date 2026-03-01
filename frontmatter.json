@@ -1,0 +1,56 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "docusaurus",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/blog",
+      "previewPath": "blog",
+      "contentTypes": ["default"]
+    },
+    {
+      "title": "News",
+      "path": "[[workspace]]/news",
+      "previewPath": "news",
+      "contentTypes": ["default"]
+    },
+        {
+      "title": "Docs",
+      "path": "[[workspace]]/docs",
+      "previewPath": "docs",
+      "contentTypes": ["docs"]
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": true, 
+      "fileType": "md",
+      "filePrefix": "{{now}}",
+      "template": "[[workspace]]/.frontmatter/templates/blog-template.md",
+      "fields": [
+        { "title": "タイトル", "name": "title", "type": "string" },
+        { "title": "ページの説明", "name": "description", "type": "string" },
+        { "title": "著者", "name": "authors", "type": "list" },
+        { "title": "タグ", "name": "tags", "type": "list" },
+        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" },
+      ]
+    },
+    {
+      "name": "docs",
+      "pageBundle": true, 
+      "fileType": "md",
+      "filePrefix": null,
+      "fields": [
+        { "title": "タイトル", "name": "title", "type": "string" },
+        { "title": "ページの説明", "name": "description", "type": "string" },
+        { "title": "サイドバーの位置", "name": "sidebar_position", "type": "number" },
+        { "title": "著者", "name": "authors", "type": "list" },
+        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" },
+      ]
+    }
+  ],
+  "frontMatter.preview.host": "http://127.0.0.1:3000",
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.taxonomy.dateFormat": "YYYY-MM-DD"
+}
