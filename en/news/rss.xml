@@ -4,10 +4,21 @@
         <title>G^2 Blog</title>
         <link>https://G-2-yama.github.io/en/news</link>
         <description>G^2 Blog</description>
-        <lastBuildDate>Mon, 03 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[🚚 部室の場所が変わりました]]></title>
+            <link>https://G-2-yama.github.io/en/news/2026/03/01/room</link>
+            <guid>https://G-2-yama.github.io/en/news/2026/03/01/room</guid>
+            <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>部室の場所が 課外活動共用施設C棟2階 から <strong>課外活動共用施設A棟2階</strong> に移動しました．<br>
+<!-- -->課外活動共用施設A棟は体育館の裏付近にあります．</p>
+<p><img decoding="async" loading="lazy" alt="map" src="https://g-2-yama.github.io/en/assets/images/kohu_map2025-779d11eab4570ecfc7c29f3f12bd087d.jpg" width="2381" height="1760" class="img_ev3q"><br>
+<!-- -->※ C棟への立ち入りは禁止になっておりますのでご注意ください．</p>
+<p>何卒よろしくお願いいたします．</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[🎃 第22回梨甲祭]]></title>
             <link>https://G-2-yama.github.io/en/news/2025/11/03/1-univ-fes</link>
@@ -436,40 +447,6 @@
 <!-- -->今度のコミティア(110か111)ではもっとクオリティを高めてから出店したいと思います！(ﾟ∞ﾟ)</p>
 <p>周りのサークルの方々や皆様に会えて感謝！でした！<br>
 <!-- -->次の時もよろしくお願いしますm(_ _)m</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[コミティア109　お品書き]]></title>
-            <link>https://G-2-yama.github.io/en/news/2014/08/30/1-comitia</link>
-            <guid>https://G-2-yama.github.io/en/news/2014/08/30/1-comitia</guid>
-            <pubDate>Sat, 30 Aug 2014 00:00:00 GMT</pubDate>
-            <description><![CDATA[8/31(日)に行われる｢コミティア109｣に出店するとは言っていましたが、]]></description>
-            <content:encoded><![CDATA[<p>8/31(日)に行われる｢コミティア109｣に出店するとは言っていましたが、<br>
-<!-- -->肝心のお品書きを書くのを忘れていたので書いておきます！</p>
-<p><img decoding="async" loading="lazy" alt="lineup" src="https://g-2-yama.github.io/en/assets/images/2014083013371941e-e9a9dd851e9e761612268ce2e0a7b2da.png" width="300" height="400" class="img_ev3q"></p>
-<br>
-<p>で　か　い</p>
-<p>まずはその１！<br>
-<!-- -->新作ゲーム『リア獣』です(`･ω･´)<br>
-<!-- -->前々から体験版を出していましたが、ついに完成しました！<br>
-<!-- -->プレイ時間も少し長め？でなんと100円です(゜д゜)<br>
-<!-- -->非リアたちによるリア獣撲滅作戦、ご鑑賞ください。<br>
-<!-- -->是非、手に取っていただけると嬉しいです(`･ω･´)</p>
-<p>その２！<br>
-<!-- -->新作ゲーム『spare』ですヽ(｀･ω･´)ﾉ<br>
-<!-- -->こちらは体験版などは出していませんでしたが、短編ノベルゲームとして作りました！<br>
-<!-- -->もし、自分が他人の"spare"だったとしたら…？<br>
-<!-- -->こちらも100円ですので、どうぞよろしくお願いします！</p>
-<p>その３！<br>
-<!-- -->短編小説集『夏の落とし物』です(´-ω-`)<br>
-<!-- -->小説を書きたいメンバーが集まって作った短編集です。<br>
-<!-- -->こちらも100円ですので、よろしければどうぞ！</p>
-<p>その4！<br>
-<!-- -->創作写真･コラージュ集です（・ω・）<br>
-<!-- -->写真やコラージュを好むメンバーが集まって写真を作ってきました！<br>
-<!-- -->6枚ほどで100円ですので、よろしければどうぞ！</p>
-<p>他にも、新作ゲームの体験版『コクリコクラレ』もあり、充実した品揃えとなっております！<br>
-<!-- -->よろしければ、手に取っていただけると嬉しいです！</p>
-<p>と、いうことで明日、ビックサイトでお会いしましょう！ヽ(｀･ω･´)ﾉ</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
