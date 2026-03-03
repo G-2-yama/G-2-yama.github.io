@@ -10,8 +10,11 @@ services:
       - "3000:3000" # Docusaurus (プレビュー)
     volumes:
       - .:/app:Z
-    working_dir: /app
-    # 起動時に依存関係インストールとサーバー立ち上げを行う
-    entrypoint: ["/bin/sh", "-c", "yarn install && code-server --bind-addr 0.0.0.0:8080 --auth none . & yarn start --host 0.0.0.0 --no-open"]
+      - gh-config:/home/node/.config/gh:Z
     environment:
       - PASSWORD=${CODE_SERVER_PASSWORD}
+      - GIT_USER_NAME=${GIT_USER_NAME}
+      - GIT_USER_EMAIL=${GIT_USER_EMAIL}
+
+volumes:
+  gh-config:

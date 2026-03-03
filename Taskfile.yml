@@ -1,0 +1,20 @@
+version: '3'
+
+tasks:
+  deploy:
+    desc: 本番環境にデプロイする (git add + commit + push を行い，GitHub Actionsによって自動でデプロイする)
+    vars:
+      TIMESTAMP:
+        sh: date "+%Y-%m-%d %H:%M"
+    cmds:
+      - git pull origin main
+      - git add .
+      - git commit --allow-empty -m "update ({{.TIMESTAMP}})"
+      - git push origin main
+    silent: true
+
+  pull:
+    desc: ローカル環境を最新の状態に更新する
+    cmds:
+      - git pull origin main
+    silent: true
