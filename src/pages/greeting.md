@@ -7,7 +7,7 @@
 G^2は，山梨大学甲府キャンパスで一次創作を行っているサークルです．
 
 活動に関しては，ぜひ以下の動画をご覧ください！
-<iframe width="560" height="315" src="https://www.youtube.com/embed/phcTxskTwiM?si=1SpEanjrDOXbDQre" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bL_CtbA2cGU?si=DZQdEDOy0qS-ZYim" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## G^2への参加・お問い合わせ
