@@ -33,7 +33,7 @@
         { "title": "ページの説明", "name": "description", "type": "string" },
         { "title": "著者", "name": "authors", "type": "list" },
         { "title": "タグ", "name": "tags", "type": "list" },
-        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" },
+        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" }
       ]
     },
     {
@@ -46,7 +46,7 @@
         { "title": "ページの説明", "name": "description", "type": "string" },
         { "title": "サイドバーの位置", "name": "sidebar_position", "type": "number" },
         { "title": "著者", "name": "authors", "type": "list" },
-        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" },
+        { "title": "更新日時", "name": "update", "type": "datetime", "default": "{{now}}" }
       ]
     }
   ],

@@ -1,10 +1,7 @@
 FROM node:lts-bookworm
 
 # 必要なパッケージのインストール
-RUN apt-get update && apt-get install -y \
-    git \
-    curl \
-    bash-completion \
+RUN apt update && apt install -y git curl \
     # github-cli のインストール(公式の手順をdockerfileファイル用に調整)
 	&& mkdir -p -m 755 /etc/apt/keyrings /etc/apt/sources.list.d \
 	&& curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \
@@ -17,18 +14,16 @@ RUN apt-get update && apt-get install -y \
 RUN curl -fsSL https://code-server.dev/install.sh | sh \
     && sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
 
-# ユーザー設定 (rootを使わない)
-USER node
-WORKDIR /app
+# 起動スクリプトの配置
+COPY --chmod=755 .devcontainer/entrypoint.sh /usr/local/bin/entrypoint.sh
 
-# ユーザ独自のシェル設定(.bashrc)を更新
-RUN echo 'eval "$(task --completion bash)"' >> /home/node/.bashrc
+USER node
 
 # 拡張機能の自動インストール
 RUN code-server --install-extension eliostruyf.vscode-front-matter \
     && code-server --install-extension esbenp.prettier-vscode \
     && code-server --install-extension task.vscode-task
 
-# 起動スクリプトの配置
-COPY --chmod=755 .devcontainer/entrypoint.sh /usr/local/bin/entrypoint.sh
+WORKDIR /app
+
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
