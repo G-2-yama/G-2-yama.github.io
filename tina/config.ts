@@ -113,11 +113,10 @@ export default defineConfig({
         format: "md",
         ui: {
           filename: {
-            showFirst: true,
-            description: "title部分だけ入力すると、最終的に YYYY-MM-DD-title/index.md で保存されます",
-            parse: (value) => {
-              if (typeof value !== "string" || !value.trim()) return "";
-              return normalizeDatedFilename(value);
+            readonly: true,
+            slugify: (values) => {
+              const title = values?.title || "untitled";
+              return normalizeDatedFilename(title);
             },
           },
         },
@@ -177,11 +176,10 @@ export default defineConfig({
         format: "md",
         ui: {
           filename: {
-            showFirst: true,
-            description: "title部分だけ入力すると、最終的に YYYY-MM-DD-title/index.md で保存されます",
-            parse: (value) => {
-              if (typeof value !== "string" || !value.trim()) return "";
-              return normalizeDatedFilename(value);
+            readonly: true,
+            slugify: (values) => {
+              const title = values?.title || "untitled";
+              return normalizeDatedFilename(title);
             },
           },
         },
