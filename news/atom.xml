@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://G-2-yama.github.io/news</id>
     <title>G^2 Blog</title>
-    <updated>2026-03-01T00:00:00.000Z</updated>
+    <updated>2026-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://G-2-yama.github.io/news"/>
     <subtitle>G^2 Blog</subtitle>
     <icon>https://G-2-yama.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🌸 今年度もよろしくお願いします]]></title>
+        <id>https://G-2-yama.github.io/news/2026/04/01/new-spring</id>
+        <link href="https://G-2-yama.github.io/news/2026/04/01/new-spring"/>
+        <updated>2026-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="挨拶">挨拶<a href="https://g-2-yama.github.io/news/2026/04/01/new-spring#%E6%8C%A8%E6%8B%B6" class="hash-link" aria-label="挨拶 への直接リンク" title="挨拶 への直接リンク" translate="no">​</a></h2>
+<p>新年度になりました。<br>
+<!-- -->山梨大学に入学された方をはじめ、進学や入社など、新たな一歩を踏み出した方々、おめでとうございます！ </p>
+<p>私たちG^2は現在、新たに2つのゲーム開発に着手しました。<br>
+<!-- -->まだ始まったばかりで、色々とアイデア出しをしている段階ではありますが、期待して待っていただければ幸いです。</p>
+<p>また今年度からは、学内だけでなく学外に向けたゲームの公開も視野に入れて活動していく方針です。<br>
+<!-- -->(実際に今年度から学外イベントに参加できるかは分かりませんが、来年度以降に参加するための基盤を固めていくつもりです)</p>
+<p>さて、G^2は随時部員を募集しています。<br>
+<!-- -->新入生はもちろんのこと、過年度生も大歓迎です。<br>
+<!-- -->ぜひ、私たちと一緒に創作をしてみませんか？</p>
+<p>詳しくは以下の動画をご覧ください。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bL_CtbA2cGU?si=DZQdEDOy0qS-ZYim" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<p>今年度も、何卒よろしくお願いいたします。</p>]]></content>
+        <author>
+            <name>nnna</name>
+            <uri>https://github.com/nnna1224</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🚚 部室の場所が変わりました]]></title>
         <id>https://G-2-yama.github.io/news/2026/03/01/room</id>
@@ -436,23 +459,5 @@
 <!-- -->もし体験版が正しく起動しない場合、解凍したフォルダの中にあるdata.xp3を削除していただくと起動することが可能です。</p>
 <p>この度は皆様にご迷惑をかけてしまい、本当に申し訳ございません。<br>
 <!-- -->次回からはこのようなミスをなくすよう努めさせていただきます。</p>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[コミティア109　お疲れ様でした！]]></title>
-        <id>https://G-2-yama.github.io/news/2014/09/01/1-comitia</id>
-        <link href="https://G-2-yama.github.io/news/2014/09/01/1-comitia"/>
-        <updated>2014-09-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[コミティア109　お疲れ様でした！]]></summary>
-        <content type="html"><![CDATA[<p>コミティア109　お疲れ様でした！</p>
-<p><img decoding="async" loading="lazy" alt="img" src="https://g-2-yama.github.io/assets/images/20140901100402997-bd7ff77aa3232d26f385e525160efb03.jpg" width="1024" height="576" class="img_ev3q"></p>
-<p>当日は少し雨が降る程度で涼しい中でのコミティアでしたね( ´ ▽ ` )ﾉ<br>
-<!-- -->過ごしやすくてなかなかのんびりできました(´-ω-`)</p>
-<p>今回は『リア獣』、『spare』、『きるきる1』、『きるきる2』、『コクリコクラレ』の5つのゲームと<br>
-<!-- -->メンバーによる写真や小説を頒布しましたが、いつも以上に捌けてびっくりしましたΣ(´д｀;）<br>
-<!-- -->特にリア獣は沢山売れてびっくりしました(´-ω-`)</p>
-<p>周りのサークルの方々は作品のレベルがとても高く、越えられない壁を感じて過ごしていました…(;´∞`)<br>
-<!-- -->今度のコミティア(110か111)ではもっとクオリティを高めてから出店したいと思います！(ﾟ∞ﾟ)</p>
-<p>周りのサークルの方々や皆様に会えて感謝！でした！<br>
-<!-- -->次の時もよろしくお願いしますm(_ _)m</p>]]></content>
     </entry>
 </feed>
