@@ -18,6 +18,15 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
+  // Preserve existing Markdown syntax when opting into Docusaurus v4 flags.
+  markdown: {
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+  },
+
   // Set the production url of your site here
   url: 'https://G-2-yama.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
