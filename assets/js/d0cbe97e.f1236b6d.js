@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkg_2_yama_github_io=self.webpackChunkg_2_yama_github_io||[]).push([["403"],{6072(e){e.exports=JSON.parse('{"metadata":{"permalink":"/news/page/5","page":5,"postsPerPage":10,"totalPages":5,"totalCount":48,"previousPage":"/news/page/4","blogDescription":"Blog","blogTitle":"\u30CB\u30E5\u30FC\u30B9"}}')}}]);

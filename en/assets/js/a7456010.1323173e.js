@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkg_2_yama_github_io=self.webpackChunkg_2_yama_github_io||[]).push([["3056"],{8552(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

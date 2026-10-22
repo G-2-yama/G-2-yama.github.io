@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkg_2_yama_github_io=self.webpackChunkg_2_yama_github_io||[]).push([["5359"],{936(s){s.exports=JSON.parse('{"blogBasePath":"/news","blogTitle":"\u30CB\u30E5\u30FC\u30B9","authorsListPath":"/news/authors"}')}}]);

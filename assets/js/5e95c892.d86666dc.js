@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkg_2_yama_github_io=self.webpackChunkg_2_yama_github_io||[]).push([["1668"],{6569(e,a,r){r.r(a),r.d(a,{default:()=>h});var s=r(4848);r(6540);var u=r(4164),t=r(4308),c=r(8287),i=r(2831),_=r(8388);function h(e){return(0,s.jsx)(t.e3,{className:(0,u.A)(c.G.wrapper.docsPages),children:(0,s.jsx)(_.A,{children:(0,i.v)(e.route.routes)})})}}}]);
